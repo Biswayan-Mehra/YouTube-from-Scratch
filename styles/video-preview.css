@@ -1,0 +1,38 @@
+.video-preview {
+  margin: 1px;
+  display: inline-block;
+  padding: 5px;
+  width: 300px;
+}
+
+.thumbnail {
+  display: block;
+  width: 300px;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.channel-icon-container {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.channel-icon {
+  width: 40px;
+  border-radius: 50px;
+}
+
+.preview-content {
+  display: inline-block;
+  font-size: small;
+  width: 255px;
+}
+
+.preview-title {
+  font-size: large;
+  font-weight: bold;
+}
+
+.preview-info {
+  font-size: 14px;
+}
