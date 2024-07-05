@@ -5,10 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <title>YouTube</title>
-    <link rel="stylesheet" href="styles\styles.css" />
-    <link rel="stylesheet" href="styles\button-styles.css" />
-    <link rel="stylesheet" href="styles\video-preview.css" />
-    <link rel="icon" href="images\YTicon.png" type="image/icon type" />
+
+    <link rel="stylesheet" href="styles\general.css" />
+    <link rel="stylesheet" href="styles\header.css" />
+    <link rel="stylesheet" href="styles\video.css" />
+    <link rel="icon" href="images\YT-icon.png" type="image/icon type" />
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -19,257 +20,202 @@
   </head>
 
   <body>
-    <h1>
-      <a href="main.html" target="_blank">YouTube</a>
-      <input class="search-bar" type="text" placeholder="Search" />
-    </h1>
-
-    <div class="video-preview">
-      <div>
+    <div class="header-bar">
+      <div class="left-section">
         <img
-          class="thumbnail"
-          src="images\thumbnails\html-css-course.webp"
+          class="side-panel-button"
+          src="images\icons\hamburger-menu.svg"
+          alt=""
+        />
+        <img class="YT-icon" src="images\icons\youtube-logo.svg" alt="" />
+      </div>
+      <div class="middle-section">
+        <input class="search-bar" type="text" placeholder="Search" />
+        <img class="search-icon" src="images\icons\search.svg"" alt="" />
+        <img
+          class="audio-search-icon"
+          src="images\icons\voice-search-icon.svg"
           alt=""
         />
       </div>
+      <div class="right-section">
+        <img class="upload-icon" src="images\icons\upload.svg" alt="" />
+        <img class="app-icon" src="images\icons\youtube-apps.svg" alt="" />
+        <img
+          class="notification-icon"
+          src="images\icons\notifications.svg"
+          alt=""
+        />
+        <img
+          class="account-icon"
+          src="images\channel-icon\SuperSimpleDev.jpg"
+          alt=""
+        />
+      </div>
+    </div>
 
-      <div>
-        <div class="channel-icon-container">
+    <div class="video-box">
+      <div class="video-preview">
+        <img
+          class="thumbnail-img"
+          src="images\thumbnails\html-css-course.webp"
+          alt=""
+        />
+
+        <div class="preview-content">
           <img
             class="channel-icon"
             src="images\channel-icon\SuperSimpleDev.jpg"
             alt=""
           />
-        </div>
-
-        <div class="preview-content">
-          <div class="preview-title">
-            HTML &amp; CSS Full Course - Beginner to Pro
-          </div>
 
           <div class="preview-info">
-            SuperSimpleDev<br />1&nbsp;crore views &middot; 2 years ago
+            <div class="preview-title">
+              HTML &amp; CSS Full Course - Beginner to Pro
+            </div>
+
+            <div class="preview-data">
+              <div>SuperSimpleDev</div>
+              <div>1 crore views &middot; 2 years ago</div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="video-preview">
-      <div>
+      <div class="video-preview">
         <img
-          class="thumbnail"
+          class="thumbnail-img"
           src="images\thumbnails\html-css-course.webp"
           alt=""
         />
-      </div>
 
-      <div>
-        <div class="channel-icon-container">
+        <div class="preview-content">
           <img
             class="channel-icon"
             src="images\channel-icon\SuperSimpleDev.jpg"
             alt=""
           />
-        </div>
-
-        <div class="preview-content">
-          <div class="preview-title">
-            HTML &amp; CSS Full Course - Beginner to Pro
-          </div>
 
           <div class="preview-info">
-            SuperSimpleDev<br />1&nbsp;crore views &middot; 2 years ago
+            <div class="preview-title">
+              HTML &amp; CSS Full Course - Beginner to Pro
+            </div>
+
+            <div class="preview-data">
+              <div>SuperSimpleDev</div>
+              <div>1 crore views &middot; 2 years ago</div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="video-preview">
-      <div>
+      <div class="video-preview">
         <img
-          class="thumbnail"
+          class="thumbnail-img"
           src="images\thumbnails\html-css-course.webp"
           alt=""
         />
-      </div>
 
-      <div>
-        <div class="channel-icon-container">
+        <div class="preview-content">
           <img
             class="channel-icon"
             src="images\channel-icon\SuperSimpleDev.jpg"
             alt=""
           />
-        </div>
-
-        <div class="preview-content">
-          <div class="preview-title">
-            HTML &amp; CSS Full Course - Beginner to Pro
-          </div>
 
           <div class="preview-info">
-            SuperSimpleDev<br />1&nbsp;crore views &middot; 2 years ago
+            <div class="preview-title">
+              HTML &amp; CSS Full Course - Beginner to Pro
+            </div>
+
+            <div class="preview-data">
+              <div>SuperSimpleDev</div>
+              <div>1 crore views &middot; 2 years ago</div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="video-preview">
-      <div>
+      <div class="video-preview">
         <img
-          class="thumbnail"
+          class="thumbnail-img"
           src="images\thumbnails\html-css-course.webp"
           alt=""
         />
-      </div>
 
-      <div>
-        <div class="channel-icon-container">
+        <div class="preview-content">
           <img
             class="channel-icon"
             src="images\channel-icon\SuperSimpleDev.jpg"
             alt=""
           />
-        </div>
-
-        <div class="preview-content">
-          <div class="preview-title">
-            HTML &amp; CSS Full Course - Beginner to Pro
-          </div>
 
           <div class="preview-info">
-            SuperSimpleDev<br />1&nbsp;crore views &middot; 2 years ago
+            <div class="preview-title">
+              HTML &amp; CSS Full Course - Beginner to Pro
+            </div>
+
+            <div class="preview-data">
+              <div>SuperSimpleDev</div>
+              <div>1 crore views &middot; 2 years ago</div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="video-preview">
-      <div>
+      <div class="video-preview">
         <img
-          class="thumbnail"
+          class="thumbnail-img"
           src="images\thumbnails\html-css-course.webp"
           alt=""
         />
-      </div>
 
-      <div>
-        <div class="channel-icon-container">
+        <div class="preview-content">
           <img
             class="channel-icon"
             src="images\channel-icon\SuperSimpleDev.jpg"
             alt=""
           />
-        </div>
-
-        <div class="preview-content">
-          <div class="preview-title">
-            HTML &amp; CSS Full Course - Beginner to Pro
-          </div>
 
           <div class="preview-info">
-            SuperSimpleDev<br />1&nbsp;crore views &middot; 2 years ago
+            <div class="preview-title">
+              HTML &amp; CSS Full Course - Beginner to Pro
+            </div>
+
+            <div class="preview-data">
+              <div>SuperSimpleDev</div>
+              <div>1 crore views &middot; 2 years ago</div>
+            </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="video-preview">
-      <div>
+      <div class="video-preview">
         <img
-          class="thumbnail"
+          class="thumbnail-img"
           src="images\thumbnails\html-css-course.webp"
           alt=""
         />
-      </div>
 
-      <div>
-        <div class="channel-icon-container">
+        <div class="preview-content">
           <img
             class="channel-icon"
             src="images\channel-icon\SuperSimpleDev.jpg"
             alt=""
           />
-        </div>
-
-        <div class="preview-content">
-          <div class="preview-title">
-            HTML &amp; CSS Full Course - Beginner to Pro
-          </div>
 
           <div class="preview-info">
-            SuperSimpleDev<br />1&nbsp;crore views &middot; 2 years ago
+            <div class="preview-title">
+              HTML &amp; CSS Full Course - Beginner to Pro
+            </div>
+
+            <div class="preview-data">
+              <div>SuperSimpleDev</div>
+              <div>1 crore views &middot; 2 years ago</div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-
-    <div class="video-preview">
-      <div>
-        <img
-          class="thumbnail"
-          src="images\thumbnails\html-css-course.webp"
-          alt=""
-        />
-      </div>
-
-      <div>
-        <div class="channel-icon-container">
-          <img
-            class="channel-icon"
-            src="images\channel-icon\SuperSimpleDev.jpg"
-            alt=""
-          />
-        </div>
-
-        <div class="preview-content">
-          <div class="preview-title">
-            HTML &amp; CSS Full Course - Beginner to Pro
-          </div>
-
-          <div class="preview-info">
-            SuperSimpleDev<br />1&nbsp;crore views &middot; 2 years ago
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <div class="video-preview">
-      <div>
-        <img
-          class="thumbnail"
-          src="images\thumbnails\html-css-course.webp"
-          alt=""
-        />
-      </div>
-
-      <div>
-        <div class="channel-icon-container">
-          <img
-            class="channel-icon"
-            src="images\channel-icon\SuperSimpleDev.jpg"
-            alt=""
-          />
-        </div>
-
-        <div class="preview-content">
-          <div class="preview-title">
-            HTML &amp; CSS Full Course - Beginner to Pro
-          </div>
-
-          <div class="preview-info">
-            SuperSimpleDev<br />1&nbsp;crore views &middot; 2 years ago
-          </div>
-        </div>
-      </div>
-    </div>
-
-    <br />
-
-    <button class="subscribe-button">SUBSCRIBE</button>
-
-    <button class="join-button">JOIN</button>
-
-    <button class="share-button">Share</button>
   </body>
 </html>

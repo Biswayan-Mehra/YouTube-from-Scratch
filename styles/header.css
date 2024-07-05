@@ -1,0 +1,97 @@
+.header-bar {
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+
+.left-section {
+  display: flex;
+  width: 160px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+}
+
+.side-panel-button {
+  width: 25px;
+  margin-left: 15px;
+}
+
+.YT-icon {
+  width: 95px;
+}
+
+.middle-section {
+  display: flex;
+  align-items: center;
+  flex: 1;
+  margin-left: 100px;
+  margin-right: 60px;
+}
+
+.search-bar {
+  border-radius: 20px 0px 0px 20px;
+  height: 35px;
+  width: 100%;
+  padding-left: 20px;
+  min-width: 100px;
+  max-width: 700px;
+  font-size: medium;
+  border-color: gray;
+  box-shadow: inset 2px 3px 4px rgba(0, 0, 0, 0.3);
+}
+
+.search-bar::placeholder {
+  font-family: "Roboto", "Segoe UI";
+  font-size: medium;
+}
+
+.search-icon {
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 0px 20px 20px 0px;
+  box-shadow: inset 2px 3px 4px rgba(0, 0, 0, 0.3);
+  border-color: rgba(0, 0, 0, 0.6);
+  border-width: 3px;
+  border-style: solid;
+  background-color: lightgray;
+  width: 30px;
+  height: 35px;
+}
+
+.audio-search-icon {
+  padding: 4px;
+  border-style: solid;
+  border-width: thin;
+  border-radius: 50%;
+  border-color: gray;
+  margin-left: 20px;
+  width: 30px;
+  height: 30px;
+}
+
+.right-section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 200px;
+  flex-shrink: 0;
+}
+
+.upload-icon {
+  width: 30px;
+}
+
+.app-icon {
+  width: 30px;
+}
+
+.notification-icon {
+  width: 30px;
+}
+
+.account-icon {
+  width: 40px;
+  margin-right: 15px;
+}

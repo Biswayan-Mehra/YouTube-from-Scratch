@@ -1,0 +1,42 @@
+.video-box {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+.video-preview {
+  max-width: 300px;
+}
+
+.thumbnail-img {
+  width: 100%;
+  border-radius: 15px;
+  margin-bottom: 10px;
+}
+
+.preview-content {
+  display: grid;
+  grid-template-columns: 50px 1fr;
+  column-gap: 10px;
+}
+
+.channel-icon {
+  width: 100%;
+  border-radius: 50%;
+}
+
+.preview-info {
+  display: grid;
+  grid-template-columns: 1fr;
+  row-gap: 5px;
+}
+
+.preview-title {
+  font-size: large;
+  font-weight: 500;
+}
+
+.preview-data {
+  font-size: 14px;
+}
