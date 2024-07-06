@@ -11,6 +11,7 @@
   border-bottom-color: rgba(0, 0, 0, 0.3);
   border-bottom-width: thin;
   border-bottom-style: solid;
+  z-index: 999;
 }
 
 .left-section {
@@ -19,15 +20,26 @@
   justify-content: space-between;
   align-items: center;
   flex-shrink: 0;
+  margin-left: 20px;
 }
 
 .side-panel-button {
   width: 25px;
-  margin-left: 15px;
+  cursor: pointer;
+  padding: 6px;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.side-panel-button:hover {
+  background-color: rgb(210, 210, 210);
 }
 
 .YT-icon {
   width: 95px;
+  cursor: pointer;
 }
 
 .middle-section {
@@ -58,25 +70,35 @@
 .search-icon {
   padding-left: 20px;
   padding-right: 20px;
+  padding-bottom: 2px;
   border-radius: 0px 20px 20px 0px;
-  box-shadow: inset 2px 3px 4px rgba(0, 0, 0, 0.3);
-  border-color: rgba(0, 0, 0, 0.6);
-  border-width: 3px;
+  border-color: rgb(44, 44, 44);
+  border-width: 2px;
+  border-left: 0px;
   border-style: solid;
-  background-color: lightgray;
+  background-color: rgb(230, 230, 230);
   width: 30px;
   height: 35px;
+  cursor: pointer;
+}
+
+.search-icon:hover {
+  background-color: rgb(210, 210, 210);
 }
 
 .audio-search-icon {
   padding: 4px;
-  border-style: solid;
-  border-width: thin;
+  border: none;
   border-radius: 50%;
-  border-color: gray;
+  background-color: rgb(230, 230, 230);
   margin-left: 20px;
   width: 30px;
   height: 30px;
+  cursor: pointer;
+}
+
+.audio-search-icon:hover {
+  background-color: rgb(210, 210, 210);
 }
 
 .right-section {
@@ -84,22 +106,71 @@
   justify-content: space-between;
   align-items: center;
   width: 200px;
+  column-gap: 15px;
   flex-shrink: 0;
+  margin-right: 25px;
 }
 
 .upload-icon {
   width: 30px;
+  cursor: pointer;
+  padding: 6px;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.upload-icon:hover {
+  background-color: rgb(230, 230, 230);
 }
 
 .app-icon {
   width: 30px;
+  cursor: pointer;
+  padding: 6px;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.app-icon:hover {
+  background-color: rgb(230, 230, 230);
+}
+
+.notification-icon-box {
+  position: relative;
 }
 
 .notification-icon {
   width: 30px;
+  cursor: pointer;
+  padding: 6px;
+  border: none;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+}
+
+.notification-icon:hover {
+  background-color: rgb(230, 230, 230);
+}
+
+.notification-indicator {
+  display: flex;
+  background-color: rgb(200, 0, 0);
+  color: white;
+  padding: 3px;
+  border-radius: 15px;
+  font-family: "Roboto", "Segoe UI";
+  font-size: 12px;
+  position: absolute;
+  top: 0px;
+  right: 0px;
 }
 
 .account-icon {
   width: 40px;
-  margin-right: 15px;
+  cursor: pointer;
 }

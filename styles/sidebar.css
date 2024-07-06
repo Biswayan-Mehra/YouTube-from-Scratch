@@ -1,8 +1,31 @@
 .side-bar {
-  background-color: white;
+  background-color: rgba(0, 0, 0, 0.1);
   position: fixed;
   top: 60px;
   left: 0px;
   bottom: 0px;
-  width: 60px;
+  width: 80px;
+}
+
+.sidebar-icon-box {
+  height: 90px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.sidebar-content {
+  padding-top: 6px;
+  font-family: Roboto, "Segoe UI";
+  font-size: 11px;
+}
+
+.sidebar-icon-box:hover {
+  background-color: lightgray;
+}
+
+.sidebar-icon {
+  width: 30px;
 }
