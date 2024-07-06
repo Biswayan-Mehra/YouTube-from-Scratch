@@ -67,6 +67,13 @@
   font-size: medium;
 }
 
+.search-button {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+}
+
 .search-icon {
   padding-left: 20px;
   padding-right: 20px;
@@ -80,6 +87,22 @@
   width: 30px;
   height: 35px;
   cursor: pointer;
+}
+
+.search-button .tooltip {
+  background-color: rgb(200, 200, 200);
+  font-size: 14px;
+  border-radius: 3px;
+  padding: 1px 5px 1px 5px;
+  position: absolute;
+  bottom: -25px;
+  opacity: 0;
+  transition: opacity 0.15s;
+  pointer-events: none;
+}
+
+.search-button:hover .tooltip {
+  opacity: 1;
 }
 
 .search-icon:hover {
