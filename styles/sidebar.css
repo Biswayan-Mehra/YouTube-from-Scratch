@@ -1,0 +1,8 @@
+.side-bar {
+  background-color: white;
+  position: fixed;
+  top: 60px;
+  left: 0px;
+  bottom: 0px;
+  width: 60px;
+}
